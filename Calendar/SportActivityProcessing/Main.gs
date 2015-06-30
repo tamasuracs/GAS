@@ -319,7 +319,7 @@ function getDuration(sportType, eventShortDescription){
 }
 
 /**
-* Parses out distance from the shortDescription   
+* Parses distance from the passed shortDescription   
 */
 function getDistance(sportType, eventShortDescription) {
     //By default the default distance assigned to the 

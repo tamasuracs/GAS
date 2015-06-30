@@ -1,5 +1,5 @@
 /*
-Variable for the sport types
+   Variable for the sport types
 */
 var sportTypes = [
    {

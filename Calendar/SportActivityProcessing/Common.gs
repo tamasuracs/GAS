@@ -13,7 +13,9 @@ function toDate(date)
   return date;
 }
 
-
+/*
+	Calculates the count of the weeks between two dates
+*/
 function weeks_between(date1, date2) {
     // The number of milliseconds in one week
     var ONE_WEEK = 1000 * 60 * 60 * 24 * 7;
@@ -26,6 +28,9 @@ function weeks_between(date1, date2) {
     return Math.floor(difference_ms / ONE_WEEK);
 }
 
+/*
+	Calculates the date of Monday of the week of the passed date
+*/
 function getMonday(d){
    var day = d.getDay(),
       diff = d.getDate() - day + (day == 0 ? -6:1) +1; // adjust when day is sunday
